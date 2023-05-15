@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #111111;
+
+}
+.navbar{
+    background-color: #111111;
+}
+.navbar .navbar-brand{
+    opacity: 0.8;
+    color: #F5f5f7;
+    font-size: 14px;
+    font-weight: 600;
+}
+.navbar .navbar-brand:hover{
+    color: #F5f5f7;
+   
+}
+
+.navbar .navbar-nav .nav-item a{
+    
+    opacity: 0.8;
+    font-size: 13px;
+    font-weight: 600;
+    color: #F5f5f7;
+    margin-left: 25px;
+    
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #14c1ca;
+}
+.landingsec h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+
+}
+.landingsec h1{
+    font-size: 72px;
+    font-weight: 600;
+    color: #fafafa;
+}
+.landingsec h1 span{
+    color: #fafafa;
+    background-image: linear-gradient(to right,rgb(13,138,221),rgb(21,215,200));
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.landingsec p{
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+}
+.landingsec .btn{
+    background-image: linear-gradient(to right,rgb(13,138,221),rgb(21,215,200));
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.landingsec{
+    height: 100vh;
+    padding-top: 100px;
+   
+}
+.footer{
+    margin-top: 50px;
+}
+.footer h1{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.footer i{
+    color: #a1a1a1;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.footer p{
+    color: #f9f9f9;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.footer i:hover{
+    color: #f9f9f9;
+}
+.aboutsec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    
+    
+}
+.aboutsec h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.aboutsec h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #14ceca;
+    padding-top: 25px;
+}
+.aboutsec h2{
+    font-size: 26px;
+    color: #f9f9f9;
+    font-weight: 700;
+    padding-top: 5px;
+    
+}
+.aboutsec p{
+    color: #f9f9f9;
+    font-size: 15px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+.aboutsec table td span{
+    color: #14ceca;
+    font-size: 14px;
+    font-weight: 500;
+}
+.aboutsec table td{
+    color: #f9f9f9;
+    font-size: 14px;
+}
+.aboutsec .btn{
+    background-image: linear-gradient(to right,rgb(13,138,221),rgb(21,215,200));
+    color: #fafafa;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.aboutsec img{
+    width: 80%;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+.timelinesec .heading h1{
+    color: #fafafa;
+    font-size: 60px;
+    font-weight: 700;
+}
+ 
+.timelinesec .content .elements .verticalline{
+    border-left: 1px solid #a1a1a1;
+    height: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.timelinesec .content .badgeline{
+    border-radius: 100%;
+    border:2px solid #14ceca ;
+    height: 25px;
+    width: 25px;
+}
+.timelinesec .content .card{
+    background-color: #1a1a1a;
+    margin-left:-50px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.timelinesec .content .card .card-body h5{
+    color: #14ceca ;
+    font-size: 15px;
+
+}
+.timelinesec .content .card .card-body h4{
+    font-size: 15px;
+    color: #fafafa;
+}
+.timelinesec .content .card .card-body p{
+    color: #6c756c;
+    font-size: 16px;
+    margin-top: 3px;
+}
